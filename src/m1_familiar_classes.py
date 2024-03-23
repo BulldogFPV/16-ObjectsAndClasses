@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# Done: 1. (2 pts)
 #
 #   In this module, we are going to look at some familiar concepts that we have
 #   seen before. You will notice that many of the things you have learned in
@@ -21,12 +21,15 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 obj_1 = "The quick brown fox jumps over the lazy dog."
+print(type(obj_1))
 obj_2 = [1, 2, 3, 4, 5]
+print(type(obj_2))
 obj_3 = ("Red", "Blue", "Green")
+print(type(obj_3))
 obj_4 = {6, 7, 8, 9}
-
+print(type(obj_4))
 ###############################################################################
-# TODO: 2. (4 pts)
+# Done: 2. (4 pts)
 #
 #   Also, remember that these objects have methods that we have used to perform
 #   specific tasks on them.
@@ -42,3 +45,18 @@ obj_4 = {6, 7, 8, 9}
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+obj_1 = "The quick brown fox jumps over the lazy dog."
+obj_1 = obj_1.upper()
+print(obj_1)
+
+obj_2 = [1, 2, 3, 4, 5]
+obj_2.append(6)
+print(obj_2)
+
+obj_3 = ("Red", "Blue", "Green")
+obj_3 = obj_3 + ("Yellow",)
+print(obj_3)
+
+obj_4 = {6, 7, 8, 9}
+obj_4.pop()
+print(obj_4)
